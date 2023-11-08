@@ -1,69 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-        <title>My Very First Webpage | John Mark Delima</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="icon" href="img/icon.jpeg">
-    </head>
-    <body>
+    <title>My Very First Webpage | John Mark Delima</title>
 
- <!-- Navigation Bar for My Webpage -->
-        <header>
-            <div class="container">
-                <div id="branding">
-                    <h1><span class="highlight">Books</span>That I Have Loved</h1>
-                </div>
-                <nav>
-                    <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="me.html">About Me</a></li>
-            <li class="current"><a href="books.html">Books</a></li>
-            <li><a href="movies.html">Movies & Series</a></li>
-                    </ul>
-                </nav>
-                </div>
-           </header>
-           
-           <div class="container">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
 
-           <div class="center">
-            <a href="https://www.goodreads.com/book/show/22628.The_Perks_of_Being_a_Wallflower" class="imgleft"><img class="centered book" src="img/theperksofbeingawallflower.jpeg" alt=""></a>
+<body class="text-gray-700">
+    <!-- Navigation Bar for My Webpage -->
+    <header>
+        <div
+            class="w-full top-0 left-0 border-b border-purple-200 text-center p-4 bg-purple-100 shadow-sm shadow-purple-200">
+            <div class="">
+                <h1 class="font-semibold text-4xl"><span class="text-purple-800">Books </span>that I love</h1>
+            </div>
+            <nav>
+                <ul class="sm:flex inline-block justify-center items-center gap-4 mt-4">
+                    <li class="px-2 py-1 hover:border-purple-700 border-purple-100 border-b-2"><a
+                            href="index.html">Home</a></li>
+                    <li class="px-2 py-1 hover:border-purple-700 border-purple-100 border-b-2"><a href="me.html">About
+                            Me</a></li>
+                    <li class="px-2 py-1 hover:border-purple-700 border-purple-100 border-b-2"><a
+                            href="books.html">Books</a></li>
+                    <li class="px-2 py-1 hover:border-purple-700 border-purple-100 border-b-2"><a
+                            href="movies.html">Movies & Series</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-10">
+
+        <div class="grid grid-cols-2 md:grid-cols-4 md:gap-10 gap-5 content-stretch">
+            <div class="overflow-hidden rounded-r-2xl">
+                <a href="https://www.goodreads.com/book/show/22628.The_Perks_of_Being_a_Wallflower" class="">
+                    <img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                        src="img/theperksofbeingawallflower.jpeg" alt=""></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/49552.The_Stranger" class="imgleft"><img
+                        class="h-full w-full object-cover rounded-r-2xl" src="img/thestranger.jpg" alt="The Stranger"></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/11870085-the-fault-in-our-stars" class="imgleft"><img
+                        class="h-full w-full object-cover rounded-r-2xl" src="img/thefaultinourstars.jpg"
+                        alt="The Fault In Our Stars"></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/960.Angels_Demons" class="imgleft"><img
+                        class="h-full w-full object-cover rounded-r-2xl" src="img/angelsanddemons.jpg"
+                        alt="Angels And Demons"></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/32620332-the-seven-husbands-of-evelyn-hugo"
+                    class="imgleft"><img class="h-full w-full object-cover rounded-r-2xl"
+                        src="img/thesevenhusbandsofevelynhugo.jpg" alt="The Seven Husbands of Evelyn Hugo"></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/45047384-the-house-in-the-cerulean-sea"
+                    class="imgleft"><img class="h-full w-full object-cover rounded-r-2xl"
+                        src="img/thehouseintheceruleansea.jpg" alt="The House In The Cerulean Sea"></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone"
+                    class="imgleft"><img class="h-full w-full object-cover rounded-r-2xl" src="img/harrypotter.jpg"
+                        alt="Harry Potter"></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/15749186-to-all-the-boys-i-ve-loved-before"
+                    class="imgleft"><img class="h-full w-full object-cover rounded-r-2xl" src="img/toalltheboys.jpg"
+                        alt="To All The Boys"></a>
+            </div>
             
-            <a href="https://www.goodreads.com/book/show/40495957-heartstopper" class="imgleft"><img class="centered book" src="img/heartstopper1.jpg" alt="Hearstopper"></a>
-            <a href="https://www.goodreads.com/book/show/43307358-heartstopper" class="imgleft"><img class="centered book" src="img/heartstopper2.jpg" alt="Hearstopper"></a>
-            <a href="https://www.goodreads.com/book/show/43449920-heartstopper" class="imgleft"><img class="centered book" src="img/heartstopper3.jpg" alt="Hearstopper"></a>
-            <a href="https://www.goodreads.com/book/show/56060300-heartstopper" class="imgleft"><img class="centered book" src="img/heartstopper4.jpg" alt="Hearstopper"></a>
-            <a href="https://www.goodreads.com/book/show/49552.The_Stranger" class="imgleft"><img class="centered book" src="img/thestranger.jpg" alt="The Stranger"></a>
-            <a href="https://www.goodreads.com/book/show/11870085-the-fault-in-our-stars" class="imgleft"><img class="centered book" src="img/thefaultinourstars.jpg" alt="The Fault In Our Stars"></a>
-            <a href="https://www.goodreads.com/book/show/960.Angels_Demons" class="imgleft"><img class="centered book" src="img/angelsanddemons.jpg" alt="Angels And Demons"></a>
-            <a href="https://www.goodreads.com/book/show/32620332-the-seven-husbands-of-evelyn-hugo" class="imgleft"><img class="centered book" src="img/thesevenhusbandsofevelynhugo.jpg" alt="The Seven Husbands of Evelyn Hugo"></a>
-            <a href="https://www.goodreads.com/book/show/36336078-call-me-by-your-name" class="imgleft"><img class="centered book" src="img/callmebyyourname.jpg" alt="Call Me By Your Name"></a>
-            <a href="https://www.goodreads.com/book/show/45047384-the-house-in-the-cerulean-sea" class="imgleft"><img class="centered book" src="img/thehouseintheceruleansea.jpg" alt="The House In The Cerulean Sea"></a>
-            <a href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone" class="imgleft"><img class="centered book" src="img/harrypotter.jpg" alt="Harry Potter"></a>
-            <a href="https://www.goodreads.com/book/show/15749186-to-all-the-boys-i-ve-loved-before" class="imgleft"><img class="centered book" src="img/toalltheboys.jpg" alt="To All The Boys"></a>
-           </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/40495957-heartstopper" class="imgleft"><img
+                        class="h-full w-full object-cover rounded-r-2xl" src="img/heartstopper1.jpg" alt="Hearstopper"></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/43307358-heartstopper" class="imgleft"><img
+                        class="h-full w-full object-cover rounded-r-2xl" src="img/heartstopper2.jpg" alt="Hearstopper"></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/43449920-heartstopper" class="imgleft"><img
+                        class="h-full w-full object-cover rounded-r-2xl" src="img/heartstopper3.jpg" alt="Hearstopper"></a>
+            </div>
+            <div>
+                <a href="https://www.goodreads.com/book/show/56060300-heartstopper" class="imgleft"><img
+                        class="h-full w-full object-cover rounded-r-2xl" src="img/heartstopper4.jpg" alt="Hearstopper"></a>
+            </div>
+        </div>
 
-</div>
+    </main>
 
-<script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();  
-});
-</script>
-
-<footer>
-      <div data-toggle="tooltip" data-placement="top" title="This page freaks me out, there's a lot of mistakes!!! I want to do a lot of things here but I didn't do what I want to do!!! So yeah, goodbye." class="small">John Mark Delima <p>Copyright &copy; 2022</p>
-      </div>
+    <footer class="p-5 grid place-content-center text-sm">
+        <div title="This page freaks me out, there's a lot of mistakes!!! I want to do a lot of things here but I didn't do what I want to do!!! So yeah, goodbye."
+            class="">John Mark Delima <p>Copyright &copy; 2022</p>
+        </div>
     </footer>
-    
+
 
 </body>
+
 </html>
-
-
